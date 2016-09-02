@@ -1,0 +1,8 @@
+api:
+  build: ./services/api
+  ports:
+    - "8080:8080"
+  links:
+    - add
+add:
+  build: ./services/add

@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: add
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        service: add
+        tier: backend
+        transport: grpc
+    spec:
+      containers:
+      - name: addsrv
+        image: vems/add-service-go:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8888

@@ -1,0 +1,9 @@
+[submodule "services/add"]
+	path = services/add
+	url = git@github.com:vems/add-service-go.git
+[submodule "services/api"]
+	path = services/api
+	url = git@github.com:vems/api-gateway.git
+[submodule "pb"]
+	path = pb
+	url = git@github.com:vems/pb.git
