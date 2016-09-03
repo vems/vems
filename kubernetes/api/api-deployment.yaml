@@ -15,4 +15,4 @@ spec:
         image: vems/api-gateway:latest
         imagePullPolicy: Never
         ports:
-        - containerPort: 8888
+        - containerPort: 8080

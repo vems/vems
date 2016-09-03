@@ -16,4 +16,4 @@ spec:
         image: vems/add-service-go:latest
         imagePullPolicy: Never
         ports:
-        - containerPort: 8888
+        - containerPort: 8080

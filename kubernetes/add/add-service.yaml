@@ -8,7 +8,7 @@ metadata:
     transport: grpc
 spec:
   ports:
-  - port: 8888
+  - port: 8080
   selector:
     service: add
     tier: backend
