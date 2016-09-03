@@ -1,0 +1,15 @@
+---
+name: Docs
+description: A Docs expiriment repo
+url: http://brianegizi.com
+baseurl: "/docs-experiments"
+timezone: America/Los_Angeles
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- Rakefile
+- vendor/bundle
+sass:
+  style: :compressed
+version: 15.3.1
