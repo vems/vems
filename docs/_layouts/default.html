@@ -9,24 +9,15 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
 </head>
 <body>
-
   <div class="container">
-
-    <div class="nav-main">
-      <div class="wrap">
-        <a class="nav-home" href="/docs-experiments/index.html">Docs</a>
-      </div>
-    </div>
-
-    {% if page.id == 'home' %}
-    <div class="hero">
-      <div class="wrap">Hero</div>
-    </div>
-    {% endif %}
+    <nav>
+      <a href="/vems">VEMS</a>
+      <a href="/vems/docs/getting-started">Docs</a>
+    </nav>
 
     {{ content }}
 
-    <footer class="wrap">
+    <footer>
       Footer
     </footer>
   </div>

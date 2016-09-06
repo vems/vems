@@ -1,15 +1,13 @@
 ---
-name: Docs
-description: A Docs expiriment repo
-url: http://brianegizi.com
-baseurl: "/docs-experiments"
-timezone: America/Los_Angeles
+name: VEMS
+description: VEMS - VEMS Example MicroServices
+url: http://vems.github.io
+baseurl: "/vems"
+timezone: America/New_York
 exclude:
 - Gemfile
 - Gemfile.lock
 - README.md
-- Rakefile
-- vendor/bundle
 sass:
   style: :compressed
-version: 15.3.1
+version: 1.0.0

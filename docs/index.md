@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Docs Home Page
 id: home
+title: VEMS
 ---
 
-<section class="light home-section">
+<section class="content">
   Docs Site
 </section>
