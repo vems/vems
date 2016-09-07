@@ -1,3 +1,5 @@
+web:
+  build: ./web
 api:
   build: ./services/api
   ports:

@@ -7,3 +7,6 @@
 [submodule "pb"]
 	path = pb
 	url = https://github.com/vems/pb.git
+[submodule "web"]
+	path = web
+	url = https://github.com/vems/web.git
