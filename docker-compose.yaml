@@ -1,12 +1,12 @@
 proxy:
-  build: ./proxy
+  build: ./services/proxy
   ports:
     - "8080:80"
   links:
     - api
     - web
 web:
-  build: ./web
+  build: ./services/web
 api:
   build: ./services/api
   links:
