@@ -7,6 +7,9 @@
 [submodule "pb"]
 	path = pb
 	url = https://github.com/vems/pb.git
+[submodule "proxy"]
+	path = proxy
+	url = https://github.com/vems/proxy.git
 [submodule "web"]
 	path = web
 	url = https://github.com/vems/web.git
